@@ -4,6 +4,52 @@ body{
 .cabecalho, .novo{
     width: 60%;
     margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: center;
+}
+.escopo{
+    width: 60%;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: center;
+
+}
+.logo img{
+   float: right;
+   height: 10em;
+   
+}
+.tudo{
+    width: 60%;
+    margin: auto;   
+}
+.teste{
+    width: 20%;
+    margin: auto;
+    font-size: 20px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    
+    display: inline-block;
+    text-align: left;
+}
+.formulario{
+    width: 60%;
+    margin: auto;
+    height: 2em; 
+    display: inline-block; 
+    text-align: left; 
+}
+.btn input {
+    background: rgb(0, 0, 0);
+    width: 10%;
+    height: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:100%;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+    
+    
 }
 .novo a{
     text-transform: uppercase;
@@ -11,9 +57,15 @@ body{
     font-size: 0.875em;
     background: rgb(252, 250, 251);   
     border: 1px solid rgb(5, 5, 5);
-    margin-bottom: 2em;
+    margin-bottom: 10em;
     padding: .5em 0.8em;
     text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.novo a:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(252, 252, 252)
 }
 table{
     width: 60%;
@@ -36,6 +88,11 @@ td{
     height: 1.5em;
     padding: 0.5em 1em;
     border: 1px double black;
-    background: rgb(255, 255, 255)
-  
+    
+}
+tbody tr:hover{
+    background: rgb(171, 243, 3);
+}
+tbody tr{
+    background: rgb(255, 255, 255);
 }

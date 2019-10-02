@@ -1,7 +1,7 @@
 from alunos import Alunos
 from flask import Flask, render_template, request, redirect
 
-pagina_nome = 'Lista Alunos'
+pagina_nome = 'LISTA ALUNOS'
 # aluno1 = Alunos('Jonathan','Prange', 479997908805)
 # aluno2 = Alunos('Maykon','D. Granemann', 47999080511)
 # aluno3 = Alunos('Kerolain','Andressa', 47996279827)

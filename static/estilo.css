@@ -1,0 +1,41 @@
+body{
+    background: rgb(179, 173, 175);
+}
+.cabecalho, .novo{
+    width: 60%;
+    margin: auto;
+}
+.novo a{
+    text-transform: uppercase;
+    color: rgb(5, 4, 4);
+    font-size: 0.875em;
+    background: rgb(252, 250, 251);   
+    border: 1px solid rgb(5, 5, 5);
+    margin-bottom: 2em;
+    padding: .5em 0.8em;
+    text-decoration: none;
+}
+table{
+    width: 60%;
+    margin: 2em auto;
+    border-collapse: collapse;
+}
+thead{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+th{
+    height: 2em;
+    text-align: left;
+    padding: 0.5em 0 0 1em;
+    text-transform: uppercase;
+    font-size: 15px
+
+}    
+td{
+    height: 1.5em;
+    padding: 0.5em 1em;
+    border: 1px double black;
+    background: rgb(255, 255, 255)
+  
+}

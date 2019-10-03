@@ -1,0 +1,26 @@
+{% extends "tbl.html" %}
+{% block conteudo %}
+<div id= "Cadastrar">
+        <h1>Cadastrar Cliente</h1>
+        <form action="/salvar_pedido">
+            <div class="labels">
+                <label for= "">Nome:</label>
+            </div>
+            <input type="text" name="nome">
+            <div class= "labels">
+                <label for="">Endereço de entrega:</label>
+            </div>
+            <input type="text" name="endereco">
+            <div class="labels">
+                <label for="">Telefone:</label>
+            </div>
+            <input type="text" name="telefone">
+            <div class="labels">
+                <label for="">E-mail:</label>
+            </div>
+            <input type="text" name="e-mail">
+            <hr>
+            <input type="submit" value="salvar" class="btn"> 
+        </form>
+    </div>             
+{% endblock %}

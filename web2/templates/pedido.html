@@ -1,26 +1,20 @@
 {% extends "tbl.html" %}
 {% block conteudo %}
-<div id= "Cadastrar">
-        <h1>Cadastrar Cliente</h1>
-        <form action="/salvar_pedido">
-            <div class="labels">
-                <label for= "">Nome:</label>
-            </div>
-            <input type="text" name="nome">
-            <div class= "labels">
-                <label for="">Endereço de entrega:</label>
-            </div>
-            <input type="text" name="endereco">
-            <div class="labels">
-                <label for="">Telefone:</label>
-            </div>
-            <input type="text" name="telefone">
-            <div class="labels">
-                <label for="">E-mail:</label>
-            </div>
-            <input type="text" name="e-mail">
-            <hr>
-            <input type="submit" value="salvar" class="btn"> 
-        </form>
-    </div>             
+
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Endereço entrega:</label>
+          <input type="endereco" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Informe seu endereço">
+       </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Quantidade:</label>
+          <input type="quantidade" class="form-control" id="exampleInputPassword1" placeholder="Quantas cervejas deseja?">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+               
 {% endblock %}

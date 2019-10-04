@@ -1,32 +1,38 @@
 <html>
-    <head>
-        <title>INVEST - {{titulo_pagina}}</title>
-        <link rel="stylesheet" href="../static/diversificacao-de-investimentos.jpg.jpg"> 
-        <link rel="stylesheet" href="../static/mão.jpeg">
-    </head>
-            <body>
-                <form class="investimentos">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Categoria</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Categoria">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Tipo</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Tipo">
-                    </div>
-                    <div class="form-group">
-                            <label for="exampleInputPassword1">Aporte</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Aporte R$">
-                    </div> 
-                    <div class="form-group">
-                            <label for="exampleInputPassword1">Rentabilidade</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Rentabilidade %">  
-                    </div>
-                    <div class="form-group">
-                            <label for="exampleInputPassword1">Periodo rentabilidade</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="(dia/mês/ano)">  
-                    </div>                  
-                    <button type="button" class="btn btn-light">Finalizar</button>
-                </form>
-            </body>
+
+<head>
+    <title>INVEST - {{titulo_pagina}}</title>
+    <link rel="stylesheet" href="../static/diversificacao-de-investimentos.jpg.jpg">
+    <link rel="stylesheet" href="../static/mão.jpeg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form class="investimentos">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Categoria</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="Categoria"
+                placeholder="Categoria">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Tipo</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Tipo">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Aporte</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Aporte R$">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Rentabilidade</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Rentabilidade %">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Periodo rentabilidade</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="(dia/mês/ano)">
+        </div>
+        <button type="button" class="btn btn-light">Finalizar</button>
+    </form>
+</body>
+
 </html>

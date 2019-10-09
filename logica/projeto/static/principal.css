@@ -1,0 +1,17 @@
+body{
+    margin: 0%;
+    background: rgb(246, 248, 248);    
+}
+
+.cabecalho{
+    background: rgb(70, 180, 180);
+    height:7%;
+    width: 100%;
+ 
+}
+
+.cabecalho .logo img{
+    height: 99x;
+    width: 110px;
+    display: inline-block;
+}
